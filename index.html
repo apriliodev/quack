@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>quack | simple duck project</title>
+  <link rel="icon" type="image/x-icon" href="../assets/duck.ico">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../script/script.js"></script>
+  
+  <script>
+    function handleKeyPress(event) {
+        if (event.code === 'Space') { 
+            window.location.href = '../pages/duck.html'; 
+        }
+    }
+
+    document.addEventListener('keydown', handleKeyPress);
+</script>
+
+
+<link rel="icon" type="image/png" href="../img/duck.png" />
+</head>
+<body>
+
+
+
+
+    <div class=fakeMenu>
+        <div class="fakeButtons fakeClose"></div>
+        <div class="fakeButtons fakeMinimize"></div>
+        <div class="fakeButtons fakeZoom"></div>
+      </div>
+      <div class="fakeScreen">
+        <p class="line1">$ duck self project made by hand<span class="cursor1">_</span></p>
+        <p class="line2">just make duck spawn by clicking on a button..<span class="cursor2">_</span></p>
+        <p class="line3">press space to go to next page<span class="cursor3">_</span></p>
+        <p class="line4">><span class="cursor4">_</span></p>
+      </div>
